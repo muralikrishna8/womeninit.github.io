@@ -57,8 +57,13 @@ h2 {
 }
 
 ul.dashed > li {
+	list-style-type: disc;
+}
+
+ul.dashed > li.day {
 	list-style-type: none;
 }
+
 
 .tw-hyd {
 	color: white;
@@ -78,7 +83,7 @@ ul.dashed > li {
 /********************* VENUE ********************/
 
 .venue-mask {
-  background-image: url(../assets/img/banner-desktop.jpg);
+  background-image: url(../assets/img/banner-desktop.png);
   background-size: cover;
   margin: 0 auto;
   box-sizing: border-box;
@@ -107,8 +112,16 @@ ul.dashed > li {
 	margin-bottom: 50px;
 	text-align: right;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 900;
     line-height: 1.2em;
+}
+.venue .meetup-text{
+    color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+  	letter-spacing: 0.5px;
+  	text-align: right;
+  	text-transform: uppercase;
 }
 
 .venue .date {
@@ -205,6 +218,22 @@ ul.dashed > li {
 	margin: 30px 20% 0 20%;
 }
 
+/********************* ABOUT ********************/
+.about p,
+.about2 p{
+    text-align: justify;
+    font-size: 22px;
+}
+.about2 h1{
+    font-size: 30px;
+}
+hr.linebreak
+{
+    border: #C7C7C7 solid 1px;
+    width: 73%;
+    margin: auto;
+}
+
 /********************* TOPICS ********************/
 
 .topics {
@@ -213,6 +242,19 @@ ul.dashed > li {
 
 .topics ul li{
 	padding: 5px;
+}
+.topics ul li.day{
+    font-weight: 900;
+}
+.topics .col-1{
+    vertical-align: top;
+    padding: 0% 2% 0% 10%;
+    text-align: left;
+}
+.topics .col-1 .col-1-inner{
+    background-color: rgba(0,0,0,0.06);
+    padding: 5% 3% 5% 10%;
+    min-height: 550px;
 }
 /********************* SELECTION-CRITERIA ********************/
 
