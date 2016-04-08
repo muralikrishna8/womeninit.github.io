@@ -96,6 +96,11 @@ ul.dashed > li {
 	background: rgba(0, 0, 0, 0.35);
 }
 
+.venue .women-img {
+    width: 1em;
+    margin-right: -16px;
+}
+
 .venue h1 {
 	color: #fff;
 	font-size: 4em;
@@ -393,6 +398,10 @@ footer p.about {
 	.venue-mask {
 		background-image: url(../assets/img/banner-mobile.jpg);
 	}
+
+    .venue .women-img {
+        margin-right: -8px;
+    }
 
 	.venue-mask .venue {
 		padding: 40px;
