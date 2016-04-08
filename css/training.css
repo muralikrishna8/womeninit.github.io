@@ -12,9 +12,15 @@
 }
 
 .box-shadow {
-	-webkit-box-shadow: 0 0px 9px rgba(199, 193, 193, 0.74);
-	-moz-box-shadow: 0 0px 9px rgba(199, 193, 193, 0.74);
-	box-shadow: 0 0px 9px rgba(199, 193, 193, 0.74);
+	-webkit-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+	-moz-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+	box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
+	-moz-box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
+	box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
 }
 
 .border-bottom {
@@ -42,6 +48,12 @@ h2 {
 	margin-bottom: 40px;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.two-col .col-1 {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 ul.dashed > li {
@@ -79,7 +91,7 @@ ul.dashed > li {
 .venue-mask .venue {
 	width: 100%;
 	height: 100%;
-	padding: 20px 100px 20px 100px;
+	padding: 50px 100px;
 	box-sizing: border-box;
 	background: rgba(0, 0, 0, 0.35);
 }
@@ -87,7 +99,7 @@ ul.dashed > li {
 .venue h1 {
 	color: #fff;
 	font-size: 4em;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	text-align: right;
     text-transform: uppercase;
     font-weight: 500;
@@ -104,12 +116,11 @@ ul.dashed > li {
 }
 
 .venue .date sup {
-	font-size: 16px;
 	text-transform: lowercase;
 }
 
 .venue .register {
-	margin-top: 25px;
+	margin-top: 40px;
 	text-align: right;
 }
 
@@ -335,44 +346,26 @@ ul.dashed > li {
 	font-weight: 500;
 }
 
+/* QUOTE */
+.quote {
+    margin: 50px auto;
+}
+
+.quote blockquote {
+    border-left: 4px solid #949494;
+    padding: 10px 0 10px 30px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.quote .quote-by {
+    text-align: right;
+    display: block;
+    color: #777;
+}
+
 footer p.about {
 	max-width: 600px;
-}
-
-.problem-statement h2{
-	text-align: left;
-	color: #2a7ae2;
-	cursor: pointer;
-}
-
-.problem-statement #problemStatement1Desc,
-.problem-statement #problemStatement2Desc {
-	max-height: 3000px;
-	overflow: hidden;
-	transition: max-height .4s ease-out;
-	word-break: break-word;
-}
-
-.problem-statement #problemStatement1Desc .pdf-link,
-.problem-statement #problemStatement2Desc .pdf-link {
-	text-align: center;
-	margin-bottom: 5px;
-}
-
-.problem-statement #problemStatement1Desc .pdf-link a,
-.problem-statement #problemStatement2Desc .pdf-link a{
-	font-size: 1.5em;
-	color: #E2731F;
-}
-
-.problem-statement #problemStatement1Desc .pdf-link a img,
-.problem-statement #problemStatement2Desc .pdf-link a img{
-	vertical-align: middle;
-}
-
-.problem-statement #problemStatement1Desc.hide,
-.problem-statement #problemStatement2Desc.hide {
-	max-height: 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -387,6 +380,12 @@ footer p.about {
 }
 
 @media screen and (max-width: 600px) {
+    .single-col-mobile .col-1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
 	.max-wrap {
 		padding: 40px 15px;
 	}
