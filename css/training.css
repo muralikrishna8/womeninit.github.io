@@ -1,26 +1,26 @@
 @font-face {
-  font-family: 'OpenSans-ExtraBold';
-  src: url('../assets/fonts/OpenSans-ExtraBold.ttf')  format('truetype');
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
 .max-wrap {
-	padding: 40px 10%
+    padding: 0 10%
 }
 
 .colored-box {
-	background: #ECEDEC;
+    background: #ECEDEC;
 }
 
 .box-shadow {
-	-webkit-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
-	-moz-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
-	box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+    -webkit-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+    -moz-box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
+    box-shadow: 0 0 9px rgba(199, 193, 193, 0.74);
 }
 
 .bottom-shadow {
     -webkit-box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
-	-moz-box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
-	box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
+    -moz-box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
+    box-shadow: 0 5px 8px rgba(199, 193, 193, 0.14);
 }
 
 .border-bottom {
@@ -28,26 +28,25 @@
 }
 
 .site-header .wrap {
-	width: 80%;
+    width: 80%;
 }
 
 .t-bold {
-	font-weight: 600;
+    font-weight: 600;
 }
 
-h1 {
-	margin-bottom: 40px;
+h2 {
+    margin-bottom: 40px;
     font-size: 2em;
-    text-align: center;
     text-transform: uppercase;
     font-family: 'OpenSans-ExtraBold';
 }
 
-h2 {
-	margin-top: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-	text-transform: uppercase;
+h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .two-col .col-1 {
@@ -57,36 +56,36 @@ h2 {
 }
 
 ul.dashed > li {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 
 ul.dashed > li.day {
-	list-style-type: none;
+    list-style-type: none;
 }
 
-
 .tw-hyd {
-	color: white;
+    color: white;
     display: block;
     margin-left: 68px;
     margin-top: -20px;
 }
 
 .about.max-wrap {
-	padding-top: 25px;
+    padding-top: 25px;
 }
 
 .about h1 {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 /********************* VENUE ********************/
 
 .venue-mask {
-  background-image: url(../assets/img/banner-desktop.png);
-  background-size: cover;
-  margin: 0 auto;
-  box-sizing: border-box;
+    background-image: url(../assets/img/banner-desktop.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-position: center;
 }
 
 .tw-logo {
@@ -94,11 +93,11 @@ ul.dashed > li.day {
 }
 
 .venue-mask .venue {
-	width: 100%;
-	height: 100%;
-	padding: 50px 100px;
-	box-sizing: border-box;
-	background: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    height: 100%;
+    padding: 200px 50px 100px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(0,0,0,0.35), rgba(0,0,0,0) 100%);
 }
 
 .venue .women-img {
@@ -106,44 +105,48 @@ ul.dashed > li.day {
     margin-right: -16px;
 }
 
-.venue h1 {
-	color: #fff;
-	font-size: 4em;
-	margin-bottom: 50px;
-	text-align: right;
+.venue h2 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 50px;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 1.2em;
+    text-shadow: 0px 2px 5px #000;
 }
-.venue .meetup-text{
+
+.venue .meetup-text {
     color: #fff;
-	font-size: 25px;
-	font-weight: 500;
-  	letter-spacing: 0.5px;
-  	text-align: right;
-  	text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.venue .location {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
 }
 
 .venue .date {
-	color: #fff;
-	font-size: 22px;
-	font-weight: 500;
-  	letter-spacing: 0.5px;
-  	text-align: right;
-  	text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .venue .date sup {
-	text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 .venue .register {
-	margin-top: 40px;
-	text-align: right;
+    margin-top: 40px;
 }
 
 .venue .register a {
-  	color: #FFF;
+    color: #FFF;
     padding: 7px 70px;
     display: inline-block;
     border: 1px solid #ffffff;
@@ -155,54 +158,54 @@ ul.dashed > li.day {
 }
 
 .venue .register a:hover {
-	background-color: #2C2923;
+    background-color: #2C2923;
 }
 
 .venue .location a {
-	color: #E4B15F;
+    color: #E4B15F;
 }
 
 /********************* SEATS & DATES ********************/
 
 .seats-dates {
-	background: #2c2923;
+    background: #2c2923;
     color: white;
     padding: 30px 25px;
     text-align: center;
 }
 
 .seats-dates .deadlines {
-	display: flex;
+    display: flex;
 }
 
 .seats-dates .item {
-	flex-grow: 1;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    flex-grow: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .seats-dates .field {
-	font-size: 26px;
-	text-align: right;
-	text-transform: uppercase;
-	vertical-align: top;
+    font-size: 26px;
+    text-align: right;
+    text-transform: uppercase;
+    vertical-align: top;
     display: inline-block;
     line-height: 1.2em;
     margin-top: 14px;
 }
 
 .seats-dates .item:last-child .field {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 .seats-dates .field:first-letter {
-	font-size: 34px;
+    font-size: 34px;
     font-weight: 500;
 }
 
 .seats-dates .field-info {
-	font-size: 4em;
+    font-size: 4em;
     border-left: 2px solid white;
     padding-left: 20px;
     margin-left: 20px;
@@ -210,137 +213,146 @@ ul.dashed > li.day {
 }
 
 .seats-dates .field-info .field-info-month {
-	font-weight: normal;
+    font-weight: normal;
 }
 
 .seats-dates .seats-dates--description {
-	text-align: center;
-	margin: 30px 20% 0 20%;
+    text-align: center;
+    margin: 30px 20% 0 20%;
 }
 
 /********************* ABOUT ********************/
 .about p,
-.about2 p{
+.about2 p {
     text-align: justify;
     font-size: 22px;
+    margin-bottom: 40px;
 }
-.about2 h1{
+
+.about2 h2 {
     font-size: 30px;
 }
-hr.linebreak
-{
+
+hr.linebreak {
     border: #C7C7C7 solid 1px;
     width: 73%;
-    margin: auto;
+    margin: 0 auto 40px auto;
+}
+
+.history-link {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 /********************* TOPICS ********************/
 
 .topics {
-	text-align: center;
+    text-align: center;
 }
 
-.topics ul li{
-	padding: 5px;
+.topics ul li {
+    padding: 5px;
 }
-.topics ul li.day{
+
+.topics ul li.day {
     font-weight: 900;
 }
-.topics .col-1{
+
+.topics .col-1 {
     vertical-align: top;
     padding: 0% 2% 0% 10%;
     text-align: left;
 }
-.topics .col-1 .col-1-inner{
-    background-color: rgba(0,0,0,0.06);
+
+.topics .col-1 .col-1-inner {
+    background-color: rgba(0, 0, 0, 0.06);
     padding: 5% 3% 5% 10%;
     min-height: 550px;
 }
+
 /********************* SELECTION-CRITERIA ********************/
 
 .selection-criteria {
 }
 
-
-
 /********************* TRAINERS ********************/
 
 .trainers-container {
-	text-align: center;
+    text-align: center;
 }
 
 .trainers-container .trainers {
-	width: 49%;
-	display: inline-block;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    width: 49%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .trainers ul {
-	padding: 0;
-	margin: 0;
-	text-align: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .trainers ul li {
-	list-style: none;
-	display: inline-block;
-	text-align: center;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .trainers .trainer {
-	margin: 20px;
+    margin: 20px;
 }
 
-.trainers .trainer img{
-	text-align: center;
-	display: block;
-	width: 130px;
-	margin: 0 auto 15px auto;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	-webkit-box-shadow: 0px 0px 3px #ABABAB;
-	-moz-box-shadow: 0px 0px 3px #ABABAB;
-	box-shadow: 0px 0px 3px #ABABAB;
-	transition: all 0.3s ease-out;
-	box-sizing: border-box;
+.trainers .trainer img {
+    text-align: center;
+    display: block;
+    width: 130px;
+    margin: 0 auto 15px auto;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 0px 3px #ABABAB;
+    -moz-box-shadow: 0px 0px 3px #ABABAB;
+    box-shadow: 0px 0px 3px #ABABAB;
+    transition: all 0.3s ease-out;
+    box-sizing: border-box;
 }
 
-.trainers .trainer img:hover{
-	padding: 5px;
-	-webkit-box-shadow: 0px 0px 8px #8E8B8B;
-	-moz-box-shadow: 0px 0px 8px #8E8B8B;
-	box-shadow: 0px 0px 8px #8E8B8B;
+.trainers .trainer img:hover {
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 8px #8E8B8B;
+    -moz-box-shadow: 0px 0px 8px #8E8B8B;
+    box-shadow: 0px 0px 8px #8E8B8B;
 }
 
 /********************* EVENT-LOCATION ********************/
 
 .event-location {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 .event-location a {
-	color: black;
+    color: black;
 }
 
-.event-location a:hover .address{
-	background: white;
-	bottom: 20px;
-	-wekit-box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
-	-moz-box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
-	box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
+.event-location a:hover .address {
+    background: white;
+    bottom: 20px;
+    -wekit-box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
+    -moz-box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
+    box-shadow: -3px 0 9px rgba(132, 130, 130, 0.83);
 }
 
 .event-location .map {
-	background: url(../assets/img/map-h.jpg);
-	height: 600px;
-	position: relative;
+    background: url(../assets/img/map-h.jpg);
+    height: 600px;
+    position: relative;
 }
 
 .event-location .map .address {
-	position: absolute;
+    position: absolute;
     background: rgba(255, 255, 255, 0.83);
     padding: 20px 30px;
     font-size: 14px;
@@ -351,46 +363,46 @@ hr.linebreak
     -moz-box-shadow: -3px -2px 9px rgba(177, 173, 173, 0.83);
     box-shadow: -3px -2px 9px rgba(177, 173, 173, 0.83);
     -webkit-transition: all .3s ease-out;
-	-moz-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 }
 
 .event-location .map .address h4 {
-	margin-bottom: 7px;
-	font-weight: 500;
+    margin-bottom: 7px;
+    font-weight: 500;
 }
 
 .event-location a {
-	display: block;
-	width: 100%;
-	height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
-	width: 80%;
-	margin: 20px auto;
-	padding: 40px;
-	box-sizing: border-box;
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    box-sizing: border-box;
 }
 
 .queries {
-	text-align: center;
+    text-align: center;
 }
 
 .queries .contact-us {
-	font-size: 24px;
-	word-wrap: break-word;
-	word-break: break-all;
+    font-size: 24px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .queries .contact-us:hover {
-	text-decoration: none;
-	color: #2a7ae2;
+    text-decoration: none;
+    color: #2a7ae2;
 }
 
 .queries .send-your-code {
-	font-size: 20px;
-	font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* QUOTE */
@@ -412,18 +424,18 @@ hr.linebreak
 }
 
 footer p.about {
-	max-width: 600px;
+    max-width: 600px;
 }
 
 @media screen and (max-width: 900px) {
-	.venue-mask {
-		background-image: url(../assets/img/banner-tablet.jpg);
-		background-position-x: 0;
-	}
+    .venue-mask {
+        background-image: url(../assets/img/banner-tablet.jpg);
+        background-position-x: 0;
+    }
 
-	.trainers-container .trainers {
-		width: 100%;
-	}
+    .trainers-container .trainers {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -433,100 +445,99 @@ footer p.about {
         margin-bottom: 20px;
     }
 
-	.max-wrap {
-		padding: 40px 15px;
-	}
+    .max-wrap {
+        padding: 40px 15px;
+    }
 
-	.venue-mask {
-		background-image: url(../assets/img/banner-mobile.jpg);
-	}
+    .venue-mask {
+        background-image: url(../assets/img/banner-mobile.jpg);
+    }
 
     .venue .women-img {
         margin-right: -8px;
     }
 
-	.venue-mask .venue {
-		padding: 40px;
-	}
+    .venue-mask .venue {
+        padding: 40px;
+    }
 
-	.venue h1 {
-		font-size: 2em;
-	}
+    .venue h2 {
+        font-size: 2em;
+    }
 
-	.venue .date {
-		font-size: 13px;
-	}
+    .venue .date {
+        font-size: 13px;
+    }
 
-	.venue .register {
-		text-align: center;
-	}
+    .venue .register {
+        text-align: center;
+    }
 
-	.about-description {
-		text-align: justify;
-	}
+    .about-description {
+        text-align: justify;
+    }
 
-	.seats-dates {
-		padding: 0 0 10px 0;
-	}
+    .seats-dates {
+        padding: 0 0 10px 0;
+    }
 
-	.seats-dates .item {
-		width: 49%;
-		padding: 10px;
-		display: inline-block;
-	}
+    .seats-dates .item {
+        width: 49%;
+        padding: 10px;
+        display: inline-block;
+    }
 
-	.seats-dates .item--last {
-		width: 100%;
-		margin-top: 20px;
-	}
+    .seats-dates .item--last {
+        width: 100%;
+        margin-top: 20px;
+    }
 
-	.seats-dates .deadlines {
-		display: block;
-	}
+    .seats-dates .deadlines {
+        display: block;
+    }
 
-	.seats-dates .field {
-	    display: block;
-	    text-align: center;
-	    padding-bottom: 15px;
-	    border-bottom: 2px solid #ffffff;
-	}
+    .seats-dates .field {
+        display: block;
+        text-align: center;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #ffffff;
+    }
 
-	.seats-dates .field-info {
-	    border-left: 0;
-	    margin-left: 0;
-	    padding-left: 0;
-	}
+    .seats-dates .field-info {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+    }
 
+    .seats-dates .item--last .field {
+        border-bottom: 0;
+    }
 
-	.seats-dates .item--last .field{
-		border-bottom: 0;
-	}
+    .seats-dates .item--last .field-info {
+        border-top: 2px solid #ffffff;
+        padding-top: 10px;
+    }
 
-	.seats-dates .item--last .field-info{
-		border-top: 2px solid #ffffff;
-		padding-top: 10px;
-	}
+    .seats-dates .seats-dates--description {
+        margin: 15px;
+        text-align: justify;
+    }
 
-	.seats-dates .seats-dates--description {
-	    margin: 15px;
-	    text-align: justify;
-	}
+    .event-location .map {
+        background: url(../assets/img/map.jpg);
+        background-size: cover;
+    }
 
-	.event-location .map {
-		background: url(../assets/img/map.jpg);
-		background-size: cover;
-	}
+    .event-location .map .address {
+        left: 0;
+        text-align: center;
+    }
 
-	.event-location .map .address {
-		left: 0;
-		text-align: center;
-	}
+    .why-free p {
+        text-align: justify;
+    }
 
-	.why-free p {
-		text-align: justify;
-	}
-
-	.site-footer {
-		padding: 30px 15px;
-	}
+    .site-footer {
+        padding: 30px 15px;
+    }
 }
