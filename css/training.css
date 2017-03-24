@@ -225,7 +225,6 @@ ul.dashed > li.day {
 /********************* ABOUT ********************/
 .about p,
 .about2 p {
-    text-align: justify;
     font-size: 22px;
     margin-bottom: 40px;
 }
@@ -493,10 +492,6 @@ footer p.about {
         text-align: center;
     }
 
-    .about-description {
-        text-align: justify;
-    }
-
     .seats-dates {
         padding: 0 0 10px 0;
     }
@@ -540,7 +535,6 @@ footer p.about {
 
     .seats-dates .seats-dates--description {
         margin: 15px;
-        text-align: justify;
     }
 
     .event-location .map {
@@ -554,10 +548,12 @@ footer p.about {
     }
 
     .why-free p {
-        text-align: justify;
     }
 
     .site-footer {
         padding: 30px 15px;
+    }
+    .topics {
+        display: block;
     }
 }
