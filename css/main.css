@@ -6,10 +6,10 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; color: #333; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -190,7 +190,6 @@ a:visited { color: #205caa; }
   font-size: 42px;
   letter-spacing: -1.75px;
   line-height: 1;
-  font-weight: 300;
 }
 
 .post-header .meta {
@@ -208,7 +207,6 @@ a:visited { color: #205caa; }
 .post-content h5,
 .post-content h6 {
   line-height: 1;
-  font-weight: 300;
 }
 
 .post-content h2 {

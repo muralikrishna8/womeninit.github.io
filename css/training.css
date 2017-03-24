@@ -1,8 +1,3 @@
-@font-face {
-    font-family: 'OpenSans-ExtraBold';
-    src: url('../assets/fonts/OpenSans-ExtraBold.ttf') format('truetype');
-}
-
 .max-wrap {
     padding: 0 10%
 }
@@ -39,7 +34,8 @@ h2 {
     margin-bottom: 40px;
     font-size: 2em;
     text-transform: uppercase;
-    font-family: 'OpenSans-ExtraBold';
+    text-align: center;
+    font-weight: 700;
 }
 
 h3 {
@@ -47,14 +43,19 @@ h3 {
     margin-bottom: 40px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.two-col .col-1 {
-    width: 49%;
+.three-col .col-1 {
+    width: 33%;
     display: inline-block;
     box-sizing: border-box;
 }
 
+ul.dashed {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
 ul.dashed > li {
     list-style-type: disc;
 }
@@ -86,6 +87,7 @@ ul.dashed > li.day {
     margin: 0 auto;
     box-sizing: border-box;
     background-position: center;
+    margin-bottom: 40px;
 }
 
 .tw-logo {
@@ -95,7 +97,7 @@ ul.dashed > li.day {
 .venue-mask .venue {
     width: 100%;
     height: 100%;
-    padding: 200px 50px 100px;
+    padding: 10%;
     box-sizing: border-box;
     background: linear-gradient(90deg, rgba(0,0,0,0.35), rgba(0,0,0,0) 100%);
 }
@@ -110,7 +112,7 @@ ul.dashed > li.day {
     font-size: 4em;
     margin-bottom: 50px;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: bold;
     line-height: 1.2em;
     text-shadow: 0px 2px 5px #000;
 }
@@ -154,11 +156,10 @@ ul.dashed > li.day {
     background: rgba(0, 0, 0, 0.37);
     text-transform: uppercase;
     font-weight: 500;
-    transition: all .3s ease-out;
 }
 
 .venue .register a:hover {
-    background-color: #2C2923;
+    background-color: rgba(195, 138, 34, 0.73);
 }
 
 .venue .location a {
@@ -240,6 +241,7 @@ hr.linebreak {
 }
 
 .history-link {
+    text-transform: none;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -247,7 +249,7 @@ hr.linebreak {
 /********************* TOPICS ********************/
 
 .topics {
-    text-align: center;
+    display: flex;
 }
 
 .topics ul li {
@@ -255,19 +257,25 @@ hr.linebreak {
 }
 
 .topics ul li.day {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .topics .col-1 {
-    vertical-align: top;
-    padding: 0% 2% 0% 10%;
+    padding: 0 10px;
     text-align: left;
 }
 
 .topics .col-1 .col-1-inner {
     background-color: rgba(0, 0, 0, 0.06);
-    padding: 5% 3% 5% 10%;
-    min-height: 550px;
+    overflow: auto;
+    height: 100%;
+}
+
+.caption {
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
 /********************* SELECTION-CRITERIA ********************/
@@ -425,6 +433,18 @@ hr.linebreak {
 
 footer p.about {
     max-width: 600px;
+}
+
+.site-footer h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sponsor-logo {
+    border: solid 1px #ccc;
+    padding: 3px;
+    width: 150px;
 }
 
 @media screen and (max-width: 900px) {
